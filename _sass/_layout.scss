@@ -186,6 +186,24 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+
+  .profile-picture {
+    height: $image-size;
+    width: $image-size;
+    position: relative;
+    margin-left: 30px;
+    float: right;
+    border-radius: 50%;
+    p & {
+        padding: 0;
+        margin: 0;
+    }
+    @media (max-width: $on-palm) {
+        img {
+            margin-top: -5px;
+        }
+    }
+}
 }
 
 .page-heading {

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Resources
+permalink: /resources/
+---
+
+<h1>Resources</h1>
+<p>Here you can find some resources that I find worth sharing.</p>
+
+{%- assign counter = 0 -%}
+{%- for category in site.data.resources -%}
+    <h4>On {{category.category}}</h4>
+    {%- for resource in category.resources -%}
+        {%- assign counter = counter | plus: 1 -%}
+        <span>[{{ counter }}] <a href="{{resource.url}}">{{ resource.name }}</a>: {{ resource.description }}.</span><br>
+    {%- endfor -%}
+    <br>
+{%- endfor -%}

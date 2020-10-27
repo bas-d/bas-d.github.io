@@ -1,0 +1,44 @@
+- category: cybersecurity
+  resources:
+    - name: Chiff
+      url: https://chiff.app
+      description: more information on Chiff
+    - name: Coursera Information Security
+      url: https://www.coursera.org/learn/information-security-data
+      description: condensed version MSc in informations security I did
+    - name: HaveIBeenPwned
+      url: https://haveibeenpwned.com/
+      description: check if you're password is leaked
+    - name: Scattered Secrets
+      url: https://scatteredsecrets.com
+      description: password breach notification service
+
+- category: cryptography
+  resources:
+    - name: Understanding Cryptography
+      url: https://www.amazon.nl/Understanding-Cryptography-Textbook-Students-Practitioners/dp/3642446493
+      description: good book if you want to know more about how commonly used cryptographic algorithms work
+
+- category: development
+  resources:
+    - name: CyberChef
+      url: https://gchq.github.io/CyberChef/
+      description: the cyber swiss army knife
+    - name: Libsodium
+      url: https://libsodium.gitbook.io/doc/
+      description: cross platform cryptography library
+
+- category: darknet markets
+  resources:
+    - name: Gwern.net
+      url: https://www.gwern.net/DNM-archives
+      description: data on darknet markets
+    - name: NOS interview (Dutch)
+      url: https://nos.nl/nieuwsuur/video/2211812-reportage-betrokkenen-vertellen-over-overname-drugssite.html
+      description: interview about Hansa Market investigation
+    - name: Wired article
+      url: https://www.wired.com/story/hansa-dutch-police-sting-operation/
+      description: interview with colleagues on Hansa operation
+    - name: Crime Dot Com
+      url: https://www.amazon.com/Crime-Dot-Com-Viruses-Rigging/dp/1789142857
+      description: book on cybercrime by Geoff White
