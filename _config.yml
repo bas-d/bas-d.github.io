@@ -1,0 +1,24 @@
+title: doorn.dev
+author: Bas Doorn
+email: "'basdoorn.nl'.replace('a', '@')"
+email_placeholder: basdoorn
+description: >-
+  Hello, this is my personal website.
+footer_text: >-
+  Feel free to get in touch.
+baseurl: ""
+url: "https://doorn.dev"
+twitter_username: '0xba5d'
+github_username: bas-d
+linkedin_username: bas-doorn-50b9935a
+
+header_pages:
+  - pages/about.md
+  - pages/projects.md
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
